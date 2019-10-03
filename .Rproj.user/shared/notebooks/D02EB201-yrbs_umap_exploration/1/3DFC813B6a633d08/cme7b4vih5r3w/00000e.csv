@@ -1,0 +1,7 @@
+"0","yrbs_umap_points <- yrbs_umap$layout %>%
+  tibble::as_tibble() %>%
+  dplyr::rename(x = V1, y = V2) %>%
+  cbind(yrbs)
+"
+"2","`as_tibble.matrix()` requires a matrix with column names or a `.name_repair` argument. Using compatibility `.name_repair`.
+[90mThis warning is displayed once per session.[39m"

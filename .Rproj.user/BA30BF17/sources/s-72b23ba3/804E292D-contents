@@ -1,0 +1,62 @@
+---
+title: "YRBS Explorer"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## setup
+
+```{r}
+dir.create('data')
+dir.create('data/yrbs')
+```
+
+## Get Data
+
+```{r}
+national_grab <- "ftp://ftp.cdc.gov/pub/data/yrbs/sadc_2017/sadc_2017_national.dat"
+national_loc <- "data/yrbs/sadc_2017_national.dat"
+
+download.file(national_grab, national_loc)
+```
+
+## Extract Var Names 
+
+```{r}
+var_names <- readLines('data/yrbs/SADC_VAR_NAMES.txt') %>%
+  stringr::str_split('\\s', n= 2) %>%
+  do.call(rbind, .) %>%
+  {colnames(.) <- c('col', 'desc'); .} %>%
+  tibble::as_tibble()
+
+var_loc <- readLines('data/yrbs/SADC_VAR_LOC.txt') %>%
+  stringr::str_split('\\s', n= 2) %>%
+  do.call(rbind, .) %>%
+  {colnames(.) <- c('col', 'loc'); .} %>%
+  tibble::as_tibble() %>%
+  tidyr::separate(loc, c('begin', 'end')) %>%
+  dplyr::mutate_all(stringr::str_trim) %>%
+  dplyr::mutate_at(c('begin', 'end'), as.numeric)
+
+var_info <- dplyr::left_join(var_loc, var_names)
+```
+
+## Create Data
+
+```{r}
+yrbs <- readLines('data/yrbs/sadc_2017_national.dat')
+
+yrbs <- var_loc %>%
+  purrr::pmap(function(col, begin, end, desc){
+    stringr::str_sub(yrbs, begin, end)
+  }) %>%
+  do.call(cbind, .) %>%
+  {colnames(.) <- var_loc$col; .} %>%
+  tibble::as_tibble()
+```
+
+```{r}
+```

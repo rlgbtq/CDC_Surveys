@@ -1,0 +1,241 @@
+var,desc,begin,end
+Q1,How old are you,17,17
+Q2,What is your sex,18,18
+Q3,In what grade are you,19,19
+Q4,Are you Hispanic/Latino,20,20
+Q5,What is your race,21,28
+Q6,How tall are you,29,32
+Q7,How much do you weigh,33,38
+Q8,Seat belt use,39,39
+Q9,Riding with a drinking driver,40,40
+Q10,Drinking and driving,41,41
+Q11,Texting and driving,42,42
+Q12,Weapon carrying,43,43
+Q13,Weapon carrying at school,44,44
+Q14,Gun carrying past 12 mos,45,45
+Q15,Safety concerns at school,46,46
+Q16,Threatened at school,47,47
+Q17,Physical fighting,48,48
+Q18,Physical fighting at school,49,49
+Q19,Ever been physically forced sexual intercourse,50,50
+Q20,Sexual violence,51,51
+Q21,Sexual dating violence,52,52
+Q22,Physical dating violence,53,53
+Q23,Bullying at school,54,54
+Q24,Electronic bullying,55,55
+Q25,Sad or hopeless,56,56
+Q26,Considered suicide,57,57
+Q27,Made a suicide plan,58,58
+Q28,Attempted suicide,59,59
+Q29,Injurious suicide attempt,60,60
+Q30,Ever cigarette use,61,61
+Q31,Initiation of cigarette smoking,62,62
+Q32,Current cigarette use,63,63
+Q33,Smoked >10 cigarettes,64,64
+Q34,Electronic vapor product use,65,65
+Q35,Current electronic vapor product use,66,66
+Q36,EVP from store,67,67
+Q37,Current smokeless tobacco use,68,68
+Q38,Current cigar use,69,69
+Q39,All tobacco product cessation,70,70
+Q40,Ever alcohol use,71,71
+Q41,Initiation of alcohol use,72,72
+Q42,Current alcohol use,73,73
+Q43,Source of alcohol,74,74
+Q44,Current binge drinking,75,75
+Q45,Largest number of drinks,76,76
+Q46,Ever marijuana use,77,77
+Q47,Initiation of marijuana use,78,78
+Q48,Current marijuana use,79,79
+Q49,Ever cocaine use,80,80
+Q50,Ever inhalant use,81,81
+Q51,Ever heroin use,82,82
+Q52,Ever methamphetamine use,83,83
+Q53,Ever ecstasy use,84,84
+Q54,Ever synthetic marijuana use,85,85
+Q55,Ever steroid use,86,86
+Q56,Ever prescription pain medicine use,87,87
+Q57,Illegal injected drug use,88,88
+Q58,Illegal drugs at school,89,89
+Q59,Ever sexual intercourse,90,90
+Q60,Sex before 13 years,91,91
+Q61,Multiple sex partners,92,92
+Q62,Current sexual activity,93,93
+Q63,Alcohol/drugs and sex,94,94
+Q64,Condom use,95,95
+Q65,Birth control pill use,96,96
+Q66,Sex of sexual contacts,97,97
+Q67,Sexual identity,98,98
+Q68,Perception of weight,99,99
+Q69,Weight loss,100,100
+Q70,Fruit juice drinking,101,101
+Q71,Fruit eating,102,102
+Q72,Green salad eating,103,103
+Q73,Potato eating,104,104
+Q74,Carrot eating,105,105
+Q75,Other vegetable eating,106,106
+Q76,No soda drinking,107,107
+Q77,No milk drinking,108,108
+Q78,Breakfast eating,109,109
+Q79,Physical activity >= 5 days,110,110
+Q80,Television watching,111,111
+Q81,How many hours/day play video games,112,112
+Q82,PE attendance,113,113
+Q83,Sports team participation,114,114
+Q84,Concussion,115,115
+Q85,HIV testing,116,116
+Q86,Oral health care,117,117
+Q87,Asthma,118,118
+Q88,Hours of sleep on school night,119,119
+Q89,Grades in school,120,120
+Q90,Drive when using marijuana,121,121
+Q91,Ever used hallucinogenic drugs,122,122
+Q92,Sports drinks,123,123
+Q93,Plain water,124,124
+Q94,Food allergies,125,125
+Q95,Muscle strengthening,126,126
+Q96,Indoor tanning,127,127
+Q97,Sunburn,128,128
+Q98,Difficulty concentrating,129,129
+Q99,How well speak English,130,130
+QN8,Rarely or never wore a seat belt,185,185
+QN9,Rode with a driver who had been drinking alcohol,186,186
+QN10,Drove a car or other vehicle when they had been drinking alcohol,187,187
+QN11,Texted or e-mailed while driving a car or other vehicle,188,188
+QN12,Carried a weapon,189,189
+QN13,Carried a weapon on school property,190,190
+QN14,Carried a gun,191,191
+QN15,Did not go to school because they felt unsafe at school or on their way to or from school,192,192
+QN16,Were threatened or injured with a weapon on school property,193,193
+QN17,Were in a physical fight,194,194
+QN18,Were in a physical fight on school property,195,195
+QN19,Were ever physically forced to have sexual intercourse,196,196
+QN20,Experienced sexual violence,197,197
+QN21,Experienced sexual dating violence,198,198
+QN22,Experienced physical dating violence,199,199
+QN23,Were bullied on school property,200,200
+QN24,Were electronically bullied,201,201
+QN25,Felt sad or hopeless,202,202
+QN26,Seriously considered attempting suicide,203,203
+QN27,Made a plan about how they would attempt suicide,204,204
+QN28,Attempted suicide,205,205
+QN29,"Had a suicide attempt that resulted in an injury, poisoning, or overdose that had to be treated by a doctor or nurse",206,206
+QN30,Ever tried cigarette smoking,207,207
+QN31,First tried cigarette smoking before age 13 years,208,208
+QN32,Currently smoked cigarettes,209,209
+QN33,Smoked more than 10 cigarettes per day,210,210
+QN34,Ever used an electronic vapor product,211,211
+QN35,Currently used an electronic vapor product,212,212
+QN36,Usually got their own electronic vapor products by buying them in a store,213,213
+QN37,Currently used smokeless tobacco,214,214
+QN38,Currently smoked cigars,215,215
+QN39,Tried to quit using all tobacco products,216,216
+QN40,Ever drank alcohol,217,217
+QN41,Had their first drink of alcohol before age 13 years,218,218
+QN42,Currently drank alcohol,219,219
+QN43,Usually got the alcohol they drank by someone giving it to them,220,220
+QN44,Currently were binge drinking,221,221
+QN45,Reported that the largest number of drinks they had in a row was 10 or more,222,222
+QN46,Ever used marijuana,223,223
+QN47,tried marijuana for the first time before age 13 years,224,224
+QN48,Currently used marijuana,225,225
+QN49,Ever used cocaine,226,226
+QN50,Ever used inhalants,227,227
+QN51,Ever used heroin,228,228
+QN52,Ever used methamphetamines,229,229
+QN53,Ever used ecstasy,230,230
+QN54,Ever used synthetic marijuana,231,231
+QN55,Ever took steroids without a doctor's prescription,232,232
+QN56,Ever took prescription pain medicine without a doctor's prescription or differently than how a doctor told them to use it,233,233
+QN57,Ever injected any illegal drug,234,234
+QN58,"Were offered, sold, or given an illegal drug on school property",235,235
+QN59,Ever had sexual intercourse,236,236
+QN60,Had sexual intercourse for the first time before age 13 years,237,237
+QN61,Had sexual intercourse with four or more persons during their life,238,238
+QN62,Were currently sexually active,239,239
+QN63,Drank alcohol or used drugs before last sexual intercourse,240,240
+QN64,Used a condom during last sexual intercourse,241,241
+QN65,Used birth control pills before last sexual intercourse,242,242
+QN68,Described themselves as slightly or very overweight,245,245
+QN69,Were trying to lose weight,246,246
+QN70,Did not drink fruit juice,247,247
+QN71,Did not eat fruit,248,248
+QN72,Did not eat green salad,249,249
+QN73,Did not eat potatoes,250,250
+QN74,Did not eat carrots,251,251
+QN75,Did not eat other vegetables,252,252
+QN76,"Did not drink a can, bottle, or glass of soda or pop",253,253
+QN77,Did not drink milk,254,254
+QN78,Did not eat breakfast,255,255
+QN79,Were physically active at least 60 minutes per day on 5 or more days,256,256
+QN80,Watched television 3 or more hours per day,257,257
+QN81,Played video or computer games or used a computer 3 or more hours per day,258,258
+QN82,Attended physical education (PE) classes on 1 or more days,259,259
+QN83,Played on at least one sports team,260,260
+QN84,Had a concussion from playing a sport or being physically active,261,261
+QN85,Were ever tested for human immunodeficiency virus (HIV),262,262
+QN86,Saw a dentist,263,263
+QN87,Had ever been told by a doctor or nurse that they had asthma,264,264
+QN88,Got 8 or more hours of sleep,265,265
+QN89,Described their grades in school as mostly A's or B's,266,266
+QN90,drove a car or other vehicle when they had been using marijuana,267,267
+QN91,ever used hallucinogenic drugs,268,268
+QN92,"did not drink a can, bottle, or glass of a sports drink",269,269
+QN93,did not drink a bottle or glass of plain water,270,270
+QN94,have to avoid some foods because eating the food could cause an allergic reaction,271,271
+QN95,did exercises to strengthen or tone their muscles on three or more days,272,272
+QN96,used an indoor tanning device,273,273
+QN97,had a sunburn,274,274
+QN98,"have serious difficulty concentrating, remembering, or making decisions",275,275
+QN99,speak English well or very well,276,276
+SITE,Site Code,1,3
+QNFRCIG,Currently smoked cigarettes frequently,350,350
+QNDAYCIG,Currently smoked cigarettes daily,351,351
+QNTB2,Currently smoked cigarettes or cigars,352,352
+QNTB3,Currently smoked cigarettes or cigars or used smokeless tobacco,353,353
+QNTB4,Currently smoked cigarettes or cigars or used smokeless tobacco or electronic vapor products,354,354
+QNIUDIMP,"Used an IUD (e.g., Mirena or ParaGard) or implant (e.g., Implanon or Nexplanon)",355,355
+QNSHPARG,"Used a shot (e.g., Depo-Provera), patch (e.g., OrthoEvra), or birth control ring (e.g., NuvaRing)",356,356
+QNOTHHPL,"Used birth control pills; an IUD or implant; or a shot, patch, or birth control ring",357,357
+QNDUALBC,"Used both a condom during and birth control pills; an IUD or implant; or a shot, patch, or birth control ring before last sexual intercourse",358,358
+QNBCNONE,Did not use any method to prevent pregnancy,359,359
+QNFR0,Did not eat fruit or drink 100% fruit juices,360,360
+QNFR1,Ate fruit or drank 100% fruit juices one or more times per day,361,361
+QNFR2,Ate fruit or drank 100% fruit juices two or more times per day,362,362
+QNFR3,Ate fruit or drank 100% fruit juices three or more times per day,363,363
+QNVEG0,Did not eat vegetables,364,364
+QNVEG1,Ate vegetables one or more times per day,365,365
+QNVEG2,Ate vegetables two or more times per day,366,366
+QNVEG3,Ate vegetables three or more times per day,367,367
+QNSODA1,"Drank a can, bottle, or glass of soda or pop one or more times per day",368,368
+QNSODA2,"Drank a can, bottle, or glass of soda or pop two or more times per day",369,369
+QNSODA3,"Drank a can, bottle, or glass of soda or pop three or more times per day",370,370
+QNMILK1,Drank one or more glasses per day of milk,371,371
+QNMILK2,Drank two or more glasses per day of milk,372,372
+QNMILK3,Drank three or more glasses per day of milk,373,373
+QNBK7DAY,Ate breakfast on all 7 days,374,374
+QNPA0DAY,Did not participate in at least 60 minutes of physical activity on at least 1 day,375,375
+QNPA7DAY,Were physically active at least 60 minutes per day on all 7 days,376,376
+QNDLYPE,Attended physical education classes on all 5 days,377,377
+QNNODNT,Never saw a dentist,378,378
+QNSPDRK1,"Drank a can, bottle, or glass of a sports drink one or more times per day",379,379
+QNSPDRK2,"Drank a can, bottle, or glass of a sports drink two or more times per day",380,380
+QNSPDRK3,"Drank a can, bottle, or glass of a sports drink three or more times per day",381,381
+QNWATER1,Drank one or more glasses per day of water,382,382
+QNWATER2,Drank two or more glasses per day of water,383,383
+QNWATER3,Drank three or more glasses per day of water,384,384
+QNOBESE,Had obesity,385,385
+QNOWT,Were Overweight,386,386
+WEIGHT,Overall Weight Variable,387,396
+STRATUM,Stratum,397,399
+PSU,Primary Sampling Unit,400,405
+BMIPCT,Body Mass Index Percentage,409,413
+RACEETH,Race/Ethnicity,414,415
+Q6ORIG,Original value of Q6,416,418
+Q7ORIG,Original value of Q7,419,421
+QNDAYEVP,Currently used an electronic vapor product daily,422,422
+QNFREVP,Currently used an electronic vapor product frequently,423,423
+QNDAYSKL,Current smokeless tobacco use daily,424,424
+QNFRSKL,Current smokeless tobacco use frequently,425,425
+QNDAYCGR,Currently smoked cigars daily,426,426
+QNFRCGR,Currently smoked cigars frequently,427,427

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1569996433548.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2350437939",
+    "id" : "E4BB2486",
+    "lastKnownWriteTime" : 1569997306,
+    "last_content_update" : 1569997306605,
+    "path" : "/cloud/project/data/yrbs/2017_sadc_spss_input_program.sps",
+    "project_path" : "data/yrbs/2017_sadc_spss_input_program.sps",
+    "properties" : {
+        "cursorPosition" : "10,1",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

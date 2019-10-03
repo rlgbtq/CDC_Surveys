@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570088437456.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6EAD51B",
+    "lastKnownWriteTime" : 1570089795,
+    "last_content_update" : 1570089795653,
+    "path" : "/cloud/project/code/yrbs_umap_exploration.Rmd",
+    "project_path" : "code/yrbs_umap_exploration.Rmd",
+    "properties" : {
+        "cursorPosition" : "41,0",
+        "last_setup_crc32" : "",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

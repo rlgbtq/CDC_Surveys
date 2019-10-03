@@ -1,0 +1,9 @@
+{
+    "path" : "/cloud/project/data/yrbs",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

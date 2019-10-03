@@ -1,0 +1,42 @@
+---
+title: "YRBS UMAP Exploration"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+```
+
+## Pull Data
+
+```{r}
+yrbs_key <- readr::read_csv('../data/yrbs/2017_yrbs_key.csv')
+
+yrbs_key[c(2, 66, 67), ]
+
+yrbs <- readr::read_csv('../data/yrbs/2017_yrbs_raw.csv') %>%
+  dplyr::mutate_if(is.character, function(x){factor(x, unique(x)) %>% as.numeric}) %>%
+  dplyr::mutate_all(function(x){x[is.na(x)] <- 9999; x})
+```
+
+## Try Out UMAP
+
+```{r}
+set.seed(4321)
+yrbs_umap <- umap::umap(yrbs)
+```
+
+```{r}
+library(ggplot2)
+
+yrbs_umap_points <- yrbs_umap$layout %>%
+  tibble::as_tibble() %>%
+  dplyr::rename(x = V1, y = V2) %>%
+  cbind(yrbs[c('Q2', 'Q66', 'Q67')]) %>%
+  dplyr::mutate_at(c('Q2', 'Q66', 'Q67'), as.factor)
+
+ggplot(yrbs_umap_points) +
+  geom_point(aes(x,y, color = Q67), size = .5) + 
+  theme_bw()
+```

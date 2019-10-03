@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570089857882.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "14535682",
+    "id" : "6D7185A",
+    "lastKnownWriteTime" : 1570007740,
+    "last_content_update" : 1570007740,
+    "path" : "/cloud/project/data/yrbs/2017XXH_SAS_Input_Program.sas",
+    "project_path" : "data/yrbs/2017XXH_SAS_Input_Program.sas",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

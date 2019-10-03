@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570000784307.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2956743729",
+    "id" : "12E07A4C",
+    "lastKnownWriteTime" : 1570000826,
+    "last_content_update" : 1570000826385,
+    "path" : "/cloud/project/data/yrbs/SADC_VAR_NAMES.txt",
+    "project_path" : "data/yrbs/SADC_VAR_NAMES.txt",
+    "properties" : {
+        "cursorPosition" : "313,32",
+        "scrollLine" : "298",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

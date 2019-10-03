@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570089885466.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FEA9C150",
+    "lastKnownWriteTime" : 1570007875,
+    "last_content_update" : 1570007875,
+    "path" : "/cloud/project/data/yrbs/2017XXH_Formats_Program.sas",
+    "project_path" : "data/yrbs/2017XXH_Formats_Program.sas",
+    "properties" : {
+        "cursorPosition" : "20,18",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

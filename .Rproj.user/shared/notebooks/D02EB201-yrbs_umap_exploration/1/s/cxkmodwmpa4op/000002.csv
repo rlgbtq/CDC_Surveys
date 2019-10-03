@@ -1,0 +1,3 @@
+"0","yrbs_umap <- umap::umap(yrbs)
+"
+"2","failed creating initial embedding; using random embedding insteadx"

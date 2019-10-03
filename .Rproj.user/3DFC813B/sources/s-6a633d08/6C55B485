@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570084488408.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6C55B485",
+    "lastKnownWriteTime" : 1570015921,
+    "last_content_update" : 1570015921,
+    "path" : "/cloud/project/data/yrbs/2017_yrbs_key.csv",
+    "project_path" : "data/yrbs/2017_yrbs_key.csv",
+    "properties" : {
+        "cursorPosition" : "16,12",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

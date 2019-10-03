@@ -1,0 +1,26 @@
+install.packages('foreign')
+devtools::install_github("lebebr01/SPSStoR")
+
+#==========================#
+#== Create File Location ==#
+#==========================#
+
+dir.create('data')
+dir.create('data/yrbs')
+
+#==========================#
+#== Get Data ==============#
+#==========================#
+
+nationalDat <- "ftp://ftp.cdc.gov/pub/data/yrbs/sadc_2017/sadc_2017_national.dat"
+nationalSPSS <- "https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2017/2017_sadc_spss_input_program.sps"
+
+download.file(nationalDat, 'data/yrbs/sadc_2017_national.dat')
+download.file(nationalSPSS, 'data/yrbs/2017_sadc_spss_input_program.sps')
+
+#==========================#
+#== Load Data =============#
+#==========================#
+
+nationalDat <- haven::read_dta('data/yrbs/sadc_2017_national.dat')
+nationalSPSS <- foreign::read.spss('data/yrbs/2017_sadc_spss_input_program.sps')

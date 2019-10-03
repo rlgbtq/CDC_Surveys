@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570082227574.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4065884611",
+    "id" : "99349B6B",
+    "lastKnownWriteTime" : 1570083152,
+    "last_content_update" : 1570083152215,
+    "path" : "/cloud/project/code/yrbs_setup.Rmd",
+    "project_path" : "code/yrbs_setup.Rmd",
+    "properties" : {
+        "cursorPosition" : "118,48",
+        "last_setup_crc32" : "43dbfc15d0dba1ea",
+        "scrollLine" : "108"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
